@@ -22,7 +22,14 @@ function App() {
           {WelcomePageText.description}
         </p>
         <p>
-          {WelcomePageText.contactInfo}
+          <div> Please feel free to contact me at:
+          <br />
+          <ul>
+            <li> <a href="mailto:" target="_blank">{WelcomePageText.email}</a> </li>
+            <li> <a href={WelcomePageText.linkedIn} target="_blank">{WelcomePageText.linkedIn}</a> </li>
+          </ul>
+          </div>
+          
         </p>
       </div>
     </>
