@@ -18,10 +18,8 @@ export default function WelcomePage() {
         <a href={AboutMeText.linkedIn} target="_blank">
           <img src={ProfilePicture} className="logo"/>
         </a>
-        <p>
-            * Click picture to go directly to LinkedIn *
-        </p>
         </div>
+        
         <AboutMe />
       </div>
         </div>

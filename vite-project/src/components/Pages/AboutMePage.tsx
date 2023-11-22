@@ -1,4 +1,5 @@
 import { AboutMeText } from "../constants/AboutMeText";
+import './AboutMePage.css'
 
 export default function AboutMe() {
     return (
