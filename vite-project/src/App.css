@@ -1,17 +1,26 @@
 #root {
-  max-width: 1440px;
+  max-width: 2160px;
+  max-height: 1440px;
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: gainsboro;
+  background-color: rgba(220, 220, 220, 0.19);
   color: rgba(0, 0, 0, 0.608);
   font-family: sans-serif;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-  height: 35vh;
+  height: 100vh;
   padding: 2em;
   will-change: filter;
   transition: filter 300ms;

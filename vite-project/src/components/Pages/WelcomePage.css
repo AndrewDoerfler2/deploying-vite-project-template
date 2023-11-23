@@ -1,28 +1,11 @@
-.welcome-container{
+.picture-area{
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    width: 100vw;
+    align-items: center;
     height: 100vh;
-    background-color: #f5f5f5;
-}
-
-.picture-area{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-}
-.business-card {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 80%;
-    height: 100%;
-    padding: 2rem;
+    background-color: #f5f5f54d;
+    border: 1px solid #f5f5f500;
     border-radius: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
-    text-align: start;
+    
 }
