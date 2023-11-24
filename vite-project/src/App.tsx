@@ -16,6 +16,7 @@ function App() {
     <><BrowserRouter>
       <NavigationBar />
       <Routes>
+        <Route path={baseURL} element={<WelcomePage />} />
         <Route path="/" element={<WelcomePage />} />
         <Route path={aboutmePath} element={<AboutMePage />} />
         <Route path={resumePath} element={<Resume />} />
